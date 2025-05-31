@@ -9,7 +9,7 @@ import TextOnlyComp from "@/components/TextOnlyComp/TextOnlyComp";
 const page = () => {
   return (
     <>
-      <div className=" grid place-items-center gap-10">
+      <div className=" grid w-full place-items-center gap-10">
         <SeoComp />
         <ConsultationComp />
         <CoursesComp />
