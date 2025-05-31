@@ -8,7 +8,7 @@ const ServiceComp = () => {
         <div className="text-center font-bold text-xl">Service Features</div>
         {/* text end here */}
         {/* icons & text start here */}
-        <div className=" flex justify-between w-[80dvw] mt-8">
+        <div className=" flex justify-between  mt-8">
           <div className="px-10">
             {/* icon start here */}
             <div className="flex justify-center">
