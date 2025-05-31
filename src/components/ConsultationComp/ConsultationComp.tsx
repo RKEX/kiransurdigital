@@ -2,7 +2,7 @@ import { Button } from "../ui/button";
 
 const ConsultationComp = () => {
   return (
-    <div className="flex justify-center w-full flex-col">
+    <div className="w-full px-4 sm:px-6 md:px-8">
       {/* Headline */}
       <div className="grid gap-4 text-center mt-4">
         <div className="font-bold font-sans text-2xl">
@@ -19,8 +19,8 @@ const ConsultationComp = () => {
       </div>
 
       {/* Service Cards */}
-      <div className="bg-orange-300/25 w-full py-10">
-        <div className="flex flex-col lg:flex-row justify-center gap-10 container mx-auto">
+      <div className="bg-orange-300/25 w-full py-10 rounded-xl">
+        <div className="flex flex-col lg:flex-row justify-center gap-10 max-w-7xl mx-auto px-4">
           {/* Card 1 */}
           <div>
             <div className="font-bold text-lg mb-2">
