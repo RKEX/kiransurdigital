@@ -47,7 +47,7 @@ const SeoSearchCom = () => {
   };
 
   return (
-    <div className="max-w-xl mx-auto p-4">
+    <div className=" mx-auto p-4">
       <h2 className="text-center font-bold text-xl mb-4">SEO Score Checker</h2>
 
       <div className="flex gap-2 justify-center">
