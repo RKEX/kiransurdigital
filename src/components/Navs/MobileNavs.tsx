@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import { onAuthStateChanged, User } from "firebase/auth";
 import { Button } from "../ui/button";
 
-const DesktopNavs = () => {
+const MobileNavs = () => {
   const [signInWithGoogle, , loading, error] = useSignInWithGoogle(auth);
   const [signOut, signOutLoading, signOutError] = useSignOut(auth);
   const [currentUser, setCurrentUser] = useState<User | null>(null);
@@ -94,4 +94,4 @@ const DesktopNavs = () => {
   );
 };
 
-export default DesktopNavs;
+export default MobileNavs;
