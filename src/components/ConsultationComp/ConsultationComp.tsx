@@ -28,7 +28,7 @@ const ConsultationComp = () => {
           {/* subheadlines end here */}
 
           <div className="bg-orange-300/25 w-full py-10">
-            <div className="flex flex-wrap justify-center gap-8 container mx-auto">
+            <div className="md:flex justify-center gap-8 container mx-auto">
               {/* Card 1 */}
               <div className="w-64 sm:w-full text-left">
                 <div className="font-bold text-lg mb-2">
