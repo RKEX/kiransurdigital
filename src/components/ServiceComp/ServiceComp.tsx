@@ -2,60 +2,37 @@ import { Headset, PenTool, Search, ThumbsUp } from "lucide-react";
 
 const ServiceComp = () => {
   return (
-    <>
-      <div className=" ">
-        {/* text start here */}
-        <div className="text-center font-bold text-xl">Service Features</div>
-        {/* text end here */}
-        {/* icons & text start here */}
-        <div className=" flex justify-between w-dvw px-8  mt-8">
-          <div className="">
-            {/* icon start here */}
-            <div className="flex justify-center ">
-              <Search size={32} className="text-orange-500 text-center " />
-            </div>
-            {/* icon end here */}
-            {/* text start here */}
-            <div className="text-center font-semibold">SEO</div>
-          </div>
-          {/* text end here */}
-          <div className="">
-            {/* icon start here */}
-            <div className="">
-              <Headset size={32} className="text-orange-500  text-center" />
-            </div>
-            {/* icon end here */}
-            {/* text start here */}
-            <div className="text-center font-semibold">SEM</div>
-          </div>
-          {/* text end here */}
-          <div className=" ">
-            {/* icon start here */}
-            <div className="flex justify-center">
-              <PenTool
-                size={32}
-                className="text-orange-500 text-center -rotate-90 "
-              />
-            </div>
-            {/* icon end here */}
-            {/* text start here */}
-            <div className="text-center font-semibold">Content Marketing</div>
-          </div>
-          {/* text end here */}
-          <div className="">
-            {/* icon start here */}
-            <div className="flex justify-center">
-              <ThumbsUp size={32} className="text-orange-500 text-center" />
-            </div>
-            {/* icon end here */}
-            {/* text start here */}
-            <div className="text-center font-semibold">Social media ads</div>
-          </div>
-          {/* text end here */}
+    <div className="py-10 bg-gray-50">
+      {/* Title */}
+      <h2 className="text-center font-bold text-2xl mb-8">Service Features</h2>
+
+      {/* Icons & Text Container */}
+      <div className="flex flex-wrap justify-center gap-x-16 gap-y-10 px-6 sm:px-12">
+        {/* SEO */}
+        <div className="flex flex-col items-center max-w-[140px]">
+          <Search className="text-orange-500" size={40} />
+          <div className="mt-4 font-semibold text-center">SEO</div>
         </div>
-        {/* icons & text end here */}
+
+        {/* SEM */}
+        <div className="flex flex-col items-center max-w-[140px]">
+          <Headset className="text-orange-500" size={40} />
+          <div className="mt-4 font-semibold text-center">SEM</div>
+        </div>
+
+        {/* Content Marketing */}
+        <div className="flex flex-col items-center max-w-[140px]">
+          <PenTool className="text-orange-500 -rotate-90" size={40} />
+          <div className="mt-4 font-semibold text-center">Content Marketing</div>
+        </div>
+
+        {/* Social Media Ads */}
+        <div className="flex flex-col items-center max-w-[140px]">
+          <ThumbsUp className="text-orange-500" size={40} />
+          <div className="mt-4 font-semibold text-center">Social Media Ads</div>
+        </div>
       </div>
-    </>
+    </div>
   );
 };
 
