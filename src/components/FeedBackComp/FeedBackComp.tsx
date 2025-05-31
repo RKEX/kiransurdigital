@@ -3,15 +3,15 @@ import Image from "next/image";
 const FeedBackComp = () => {
   return (
     <>
-      <div className="bg-gray-100 w-full">
+      <div className="bg-gray-100 ">
         {/* headlines of details start here */}
         <div className="font-bold text-center text-lg my-2">
           What Our Students Say About Us
         </div>
         {/* headlines of details end here  */}
         {/* image start here */}
-        <div className="flex sm:max-md:flex-col w-full justify-between mx-auto container mt-8">
-          <div className="bg-white sm:max-md:me-8 shadow-xl border w-auto p-4 rounded-lg">
+        <div className="flex sm:max-md:flex-col  justify-between  mt-8">
+          <div className="bg-white sm:max-md:me-8 shadow-xl border  p-4 rounded-lg">
             <div className="my-4">
               <Image
                 src="/dp2.jpg"
@@ -29,7 +29,7 @@ const FeedBackComp = () => {
               <div className="font-bold">- Priya Sharma</div>
             </div>
           </div>
-          <div className="bg-white shadow-xl sm:max-md:mt-8 flex flex-col justify-end w-auto border w-auto p-4 rounded-lg">
+          <div className="bg-white shadow-xl sm:max-md:mt-8 flex flex-col justify-end border  p-4 rounded-lg">
             <div className="my-4">
               <Image
                 src="/dp1.jpg"
