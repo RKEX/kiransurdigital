@@ -59,7 +59,7 @@ const DesktopNavs = () => {
     <div className=" shadow-2xl bg-gray-150 py-3">
       <div className="flex justify-between items-center container mx-auto ">
         {/* Left side: Text Logo */}
-        <div className="text-orange-500 text-xl font-bold">Kiran Sur m</div>
+        <div className="text-orange-500 text-xl font-bold">Kiran Sur</div>
 
         {/* Right side: Auth buttons or welcome message */}
         <div className="flex items-center gap-4">
