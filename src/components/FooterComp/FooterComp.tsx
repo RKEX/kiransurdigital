@@ -3,8 +3,8 @@ import { Facebook, Instagram, LinkedinIcon, TwitterIcon } from "lucide-react";
 const FooterComp = () => {
   return (
     <>
-      <div className="bg-black w-full py-10 ">
-        <div className="flex justify-between container mx-auto">
+      <div className="bg-black py-10 ">
+        <div className="flex justify-between ">
           {/* conatct part start here */}
           <div className="grid gap-2">
             <div className="font-bold text-white text-2xl">Contact Us</div>
