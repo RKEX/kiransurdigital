@@ -12,7 +12,7 @@ const ServiceComp = () => {
           <div className="px-10">
             {/* icon start here */}
             <div className="flex justify-center">
-              <Search size={32} className="text-orange-500 " />
+              <Search  className="text-orange-500 " />
             </div>
             {/* icon end here */}
             {/* text start here */}
@@ -22,7 +22,7 @@ const ServiceComp = () => {
           <div className="px-10">
             {/* icon start here */}
             <div className="">
-              <Headset size={32} className="text-orange-500 text-center" />
+              <Headset  className="text-orange-500 text-center" />
             </div>
             {/* icon end here */}
             {/* text start here */}
@@ -32,7 +32,7 @@ const ServiceComp = () => {
           <div className=" px-10">
             {/* icon start here */}
             <div className="flex justify-center">
-              <PenTool size={32} className="text-orange-500 -rotate-90 " />
+              <PenTool className="text-orange-500 -rotate-90 " />
             </div>
             {/* icon end here */}
             {/* text start here */}
@@ -42,7 +42,7 @@ const ServiceComp = () => {
           <div className="px-10">
             {/* icon start here */}
             <div className="flex justify-center">
-              <ThumbsUp size={32} className="text-orange-500 " />
+              <ThumbsUp  className="text-orange-500 " />
             </div>
             {/* icon end here */}
             {/* text start here */}
