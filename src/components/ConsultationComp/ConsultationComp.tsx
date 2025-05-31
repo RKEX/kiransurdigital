@@ -3,8 +3,8 @@ import { Button } from "../ui/button";
 const ConsultationComp = () => {
   return (
     <>
-      <div className="w-full flex justify-center flex-col">
-        <div className="container mx-auto">
+      <div className=" flex justify-center flex-col">
+        <div className="">
           {/* headlines start here */}
           <div className="grid gap-4">
             <div className="font-bold font-sans text-center mt-4 text-2xl">
@@ -27,10 +27,10 @@ const ConsultationComp = () => {
           </div>
           {/* subheadlines end here */}
 
-          <div className="bg-orange-300/25 w-full py-10">
+          <div className="bg-orange-300/25 py-10">
             <div className="md:flex justify-center gap-8 container mx-auto">
               {/* Card 1 */}
-              <div className="w-64 sm:w-full text-left">
+              <div className=" text-left">
                 <div className="font-bold text-lg mb-2">
                   Full Digital Marketing Strategy Setup
                 </div>
@@ -42,7 +42,7 @@ const ConsultationComp = () => {
               </div>
 
               {/* Card 2 */}
-              <div className="w-64 sm:w-full text-left">
+              <div className=" text-left">
                 <div className="font-bold text-lg mb-2">
                   Website SEO Audit & Optimization
                 </div>
@@ -54,7 +54,7 @@ const ConsultationComp = () => {
               </div>
 
               {/* Card 3 */}
-              <div className="w-64 sm:w-full text-left">
+              <div className=" text-left">
                 <div className="font-bold text-lg mb-2">
                   Social Media Branding & Ad Campaigns
                 </div>
@@ -66,7 +66,7 @@ const ConsultationComp = () => {
               </div>
 
               {/* Card 4 */}
-              <div className="w-64 sm:w-full text-left">
+              <div className=" text-left">
                 <div className="font-bold text-lg mb-2">
                   Google Ads & YouTube Promotion
                 </div>
