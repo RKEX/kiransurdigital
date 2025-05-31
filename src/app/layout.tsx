@@ -10,7 +10,7 @@ type RootLayoutPropsType = Readonly<{
 const RootLayout = ({ children }: RootLayoutPropsType) => {
   return (
     <html lang="en">
-      <body className="">
+      <body className="min-w-screen overflow-x-hidden">
         <section className="hidden md:block">
           <DesktopNavs />
         </section>
