@@ -3,8 +3,8 @@ import { Button } from "../ui/button";
 const CoursesComp = () => {
   return (
     <>
-      <div className=" w-full flex justify-center flex-col">
-        <div className="container mx-auto">
+      <div className=" flex justify-center flex-col">
+        <div className="">
           {/* headlines start here */}
           <div className="grid gap-4 ">
             <div className="font-bold font-sans text-center mt-4 text-2xl">
@@ -25,7 +25,7 @@ const CoursesComp = () => {
           </div>
           {/* subheadlines end here */}
           <div className=" bg-orange-300/25 w-full py-10 ">
-            <div className=" flex gap-10 sm:max-md:flex-col container mx-auto justify-center">
+            <div className=" flex  sm:max-md:flex-col container mx-auto justify-center">
               <div className="">
                 {/* headlines of details start here */}
                 <div className="font-bold text-lg my-2">
